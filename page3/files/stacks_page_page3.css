@@ -1,0 +1,261 @@
+/*
+-------------------------------------------
+File: 'Blueball FreeStacks' fscontent.css Style Sheet
+Created: 17, January, 2011
+Last Modified: 27, January, 2011
+Author: Charlie Lockhart, Blueball Design
+www.blueballdesign.com
+Copyright 2010-2011 Charlie Lockhart/Blueball Design USA
+All Rights Reserved
+-------------------------------------------
+*/
+
+#stacks_in_172_page3 {
+	-moz-border-radius-topright: 0px;
+	-webkit-border-top-right-radius: 0px;
+	border-top-right-radius: 0px;
+	-moz-border-radius-topleft: 0px;
+	-webkit-border-top-left-radius: 0px;
+	border-top-left-radius: 0px;
+	-moz-border-radius-bottomright: 0px;
+	-webkit-border-bottom-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	-moz-border-radius-bottomleft: 0px;
+	-webkit-border-bottom-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+
+#stacks_in_172_page3 #content {
+	font-size: 12px;
+	line-height: 16px;
+}
+#stacks_in_174_page3 {
+	margin: 2px 2px 0px 2px;
+	padding: 5px 5px 0px 5px;
+}
+
+
+
+.nimblehost_myMenuOuterWrapper_stacks_in_176_page3 { 
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	z-index: 100;
+	top: 13%;
+	left: 10%;
+}
+.nimblehost_myMenuInnerWrapper_stacks_in_176_page3 { 
+	background-color: #F4F4F4;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 0 5px black;-moz-box-shadow: 0 0 5px black;box-shadow: 0 0 5px black;
+	width: 130px;
+	background: -moz-linear-gradient(100% 100% 90deg, #C4C4C4, #F4F4F4);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#F4F4F4), to(#C4C4C4));
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#F4F4F4, endColorstr=#C4C4C4);/* For IE7 & below */
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#F4F4F4, endColorstr=#C4C4C4)";/* For IE 8 */
+}
+@-moz-document url-prefix() {  }
+.nimblehost_myMenu_stacks_in_176_page3 { padding: 5px 0; }
+.nimblehost_myMenu_stacks_in_176_page3 ul { 
+	margin: 0 !important;
+	padding: 0 !important;
+	position: relative;
+	width: 130px;
+	border-top: solid 1px #AAAAAA;
+	border-bottom: solid 1px #FFFFFF;
+}
+.nimblehost_myMenu_stacks_in_176_page3 ul li { margin: 0 !important;padding: 0 !important;list-style: none;display: block;background-image: none !important;position: relative; }
+.nimblehost_myMenu_stacks_in_176_page3 ul li a { margin: 0;padding: 7px 12px;display: block;text-align: left;text-decoration: none;color: #333333;border-top: solid 1px #FFFFFF;border-bottom: solid 1px #AAAAAA;zoom: 1;}
+.nimblehost_myMenu_stacks_in_176_page3 ul li a:hover { color: #FFFFFF;background-color: #999999; }
+.nimblehost_myMenu_stacks_in_176_page3 ul li a:active {-webkit-box-shadow:inset 0 0 3px black;-moz-box-shadow:inset 0 0 3px black;box-shadow:inset 0 0 3px black;}
+.nimblehost_myMenu_stacks_in_176_page3 ul li a#current, .nimblehost_myMenu_stacks_in_176_page3 ul li a.current {padding-top: 8px;padding-bottom: 8px;background-color: #666666;color: #FFFFFF;-webkit-box-shadow:inset 0 0 3px black;-moz-box-shadow:inset 0 0 3px black;box-shadow:inset 0 0 3px black;border: none;}
+
+.nimblehost_myMenu_stacks_in_176_page3 ul li.ddarrow .childIndicator { position:absolute;top:8px;right:3px;float:right;height: 17px;width: 10px;background: transparent url(../files/ddarrow.png) center center no-repeat; }
+
+/* Second Level Menu Items */
+.nimblehost_myMenu_stacks_in_176_page3 ul ul {
+	border: none;
+	margin: 0;
+	padding: 5px 0 !important;
+	height: auto;
+	position: absolute;
+	top: -5px;
+	left: 131px;
+	display: none;
+	background-color: #F4F4F4;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 0 5px black;-moz-box-shadow: 0 0 5px black;box-shadow: 0 0 5px black;
+	background: -moz-linear-gradient(100% 100% 90deg, #C4C4C4, #F4F4F4);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#F4F4F4), to(#C4C4C4));
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#F4F4F4, endColorstr=#C4C4C4)";
+}
+
+/* Hide Drop Down Menu Items */
+.nimblehost_myMenu_stacks_in_176_page3 ul li:hover ul ul, .nimblehost_myMenu_stacks_in_176_page3 ul li:hover ul ul ul, .nimblehost_myMenu_stacks_in_176_page3 ul li:hover ul ul ul ul, .nimblehost_myMenu_stacks_in_176_page3 ul li:hover ul ul ul ul ul, .nimblehost_myMenu_stacks_in_176_page3 ul li:hover ul ul ul ul ul ul, .nimblehost_myMenu_stacks_in_176_page3 ul li:hover ul ul ul ul ul ul ul, .nimblehost_myMenu_stacks_in_176_page3 ul li:hover ul ul ul ul ul ul ul ul, .nimblehost_myMenu_stacks_in_176_page3 ul li:hover ul ul ul ul ul ul ul ul ul {display: none;}
+/* Show on Hover */
+.nimblehost_myMenu_stacks_in_176_page3 ul li:hover ul, .nimblehost_myMenu_stacks_in_176_page3 ul li li:hover ul, .nimblehost_myMenu_stacks_in_176_page3 ul li li li:hover ul, .nimblehost_myMenu_stacks_in_176_page3 ul li li li li:hover ul, .nimblehost_myMenu_stacks_in_176_page3 ul li li li li li:hover ul, .nimblehost_myMenu_stacks_in_176_page3 ul li li li li li li:hover ul, .nimblehost_myMenu_stacks_in_176_page3 ul li li li li li li li:hover ul, .nimblehost_myMenu_stacks_in_176_page3 ul li li li li li li li li:hover ul, .nimblehost_myMenu_stacks_in_176_page3 ul li li li li li li li li li:hover ul {display: block;}
+
+/*
+.nimblehost_myMenu_stacks_in_176_page3 ul ul { border: none; }
+.nimblehost_myMenu_stacks_in_176_page3 ul ul li a {padding-left: 27px  !important;}
+.nimblehost_myMenu_stacks_in_176_page3 ul ul ul li a {padding-left: 42px  !important;}
+.nimblehost_myMenu_stacks_in_176_page3 ul ul ul ul li a {padding-left: 57px  !important;}
+.nimblehost_myMenu_stacks_in_176_page3 ul ul ul ul ul li a {padding-left: 72px  !important;}
+.nimblehost_myMenu_stacks_in_176_page3 ul ul ul ul ul ul li a {padding-left: 87px  !important;}
+.nimblehost_myMenu_stacks_in_176_page3 ul ul ul ul ul ul ul li a {padding-left: 102px  !important;}
+.nimblehost_myMenu_stacks_in_176_page3 ul ul ul ul ul ul ul ul li a {padding-left: 117px  !important;}
+.nimblehost_myMenu_stacks_in_176_page3 ul ul ul ul ul ul ul ul ul li a {padding-left: 132px  !important;}
+.nimblehost_myMenu_stacks_in_176_page3 ul ul ul ul ul ul ul ul ul ul li a {padding-left: 147px  !important;}
+*/
+
+# ul, . ul {display: none;}
+/*-- TipTip Stack v1.4.1 by Joe Workman --*/
+
+#tiptip_holder{display:none;position:absolute;top:0;left:0;z-index:9997;}
+
+#tiptip_holder.tip_top{padding-bottom:5px;}
+#tiptip_holder.tip_bottom{padding-top:5px;}
+#tiptip_holder.tip_right{padding-left:5px;}
+#tiptip_holder.tip_left{padding-right:5px;}
+#tiptip_content{font-size:11px;color:#FFFEFD;text-shadow:0 0 2px #000000;text-shadow: none;padding:4px 8px;border:1px solid #999999;background-color:#67BBB5;background-image:-webkit-gradient(linear,0% 0%,0% 100%,from(transparent),to(#19A39D));background:-moz-linear-gradient(top,#67BBB5,#19A39D);background:-o-linear-gradient(top,#67BBB5,#19A39D);background:linear-gradient(top,#67BBB5,#19A39D);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#67BBB5,endColorstr=#19A39D);-ms-filter:"progid:DXImageTransform.Microsoft.gradient (GradientType=0,startColorstr=#67BBB5,endColorstr=#19A39D)";border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px;box-shadow:0 0 5px #555555;-webkit-box-shadow:0 0 5px #555555;-moz-box-shadow:0 0 5px #555555;}
+#tiptip_arrow,#tiptip_arrow_inner{position:absolute;border-color:transparent;border-style:solid;border-width:6px;height:0;width:0;}
+#tiptip_holder.tip_top #tiptip_arrow{border-top-color:#999999;}
+#tiptip_holder.tip_bottom #tiptip_arrow{border-bottom-color:#999999;}
+#tiptip_holder.tip_right #tiptip_arrow{border-right-color:#999999;}
+#tiptip_holder.tip_left #tiptip_arrow{border-left-color:#999999;}
+#tiptip_holder.tip_top #tiptip_arrow_inner{margin-top:-7px;margin-left:-6px;border-top-color:#67BBB5;}
+#tiptip_holder.tip_bottom #tiptip_arrow_inner{margin-top:-5px;margin-left:-6px;border-bottom-color:#67BBB5;}
+#tiptip_holder.tip_right #tiptip_arrow_inner{margin-top:-6px;margin-left:-5px;border-right-color:#67BBB5;}
+#tiptip_holder.tip_left #tiptip_arrow_inner{margin-top:-6px;margin-left:-7px;border-left-color:#67BBB5;}
+#tiptip_content{overflow:hidden;}
+
+/*-- End TipTip Stack --*//*
+-------------------------------------------
+File: 'Blueball FreeStacks' fsstyler.css Style Sheet
+Created: 17, January, 2011
+Last Modified: 27, January, 2011
+Author: Charlie Lockhart, Blueball Design
+www.blueballdesign.com
+Copyright 2010-2011 Charlie Lockhart/Blueball Design USA
+All Rights Reserved
+-------------------------------------------
+*/
+
+#stacks_in_178_page3 {
+	-moz-border-radius-topright: 0px;
+	-webkit-border-top-right-radius: 0px;
+	border-top-right-radius: 0px;
+	-moz-border-radius-topleft: 0px;
+	-webkit-border-top-left-radius: 0px;
+	border-top-left-radius: 0px;
+	-moz-border-radius-bottomright: 0px;
+	-webkit-border-bottom-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	-moz-border-radius-bottomleft: 0px;
+	-webkit-border-bottom-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	font-size: 12px;
+	color: #767776;
+	line-height: 20px;
+}
+
+#stacks_in_178_page3 p {
+	font-size: 12px;
+	color: ##767776;
+	line-height: 20px;
+}
+
+#stacks_in_178_page3  a {
+	color: #CD180D;
+}
+
+#stacks_in_178_page3 a:hover {
+	color: #333333;
+}
+
+#stacks_in_178_page3 a:visited {
+	color: #CD180D;
+}
+
+#stacks_in_178_page3 h1 {
+	color: #CD180D;
+}
+
+#stacks_in_178_page3 h2 {
+	color: #CD180D;
+}
+
+#stacks_in_178_page3 h3 {
+	color: #CD180D;
+}
+
+#stacks_in_178_page3 h4 {
+	color: #CD180D;
+}
+
+#stacks_in_178_page3 h5 {
+	color: #CD180D;
+}
+#stacks_in_180_page3 {
+	margin: 2px 0px 2px 2px;
+	padding: 5px 3px 5px 5px;
+}
+
+#stacks_in_178_page3 {
+	margin: 2px 2px 2px 2px;
+	padding: 5px 5px 5px 100px;
+}
+
+#stacks_in_184_page3 {
+	margin: 2px 2px 2px 2px;
+	padding: 5px 5px 5px 5px;
+}
+
+#stacks_in_172_page3 {
+	margin: 2px 2px 2px 2px;
+	padding: 5px 5px 5px 5px;
+}
+/*
+-------------------------------------------
+File: 'Blueball FreeStacks' fscontent.css Style Sheet
+Created: 17, January, 2011
+Last Modified: 27, January, 2011
+Author: Charlie Lockhart, Blueball Design
+www.blueballdesign.com
+Copyright 2010-2011 Charlie Lockhart/Blueball Design USA
+All Rights Reserved
+-------------------------------------------
+*/
+
+#stacks_in_186_page3 {
+	-moz-border-radius-topright: 0px;
+	-webkit-border-top-right-radius: 0px;
+	border-top-right-radius: 0px;
+	-moz-border-radius-topleft: 0px;
+	-webkit-border-top-left-radius: 0px;
+	border-top-left-radius: 0px;
+	-moz-border-radius-bottomright: 0px;
+	-webkit-border-bottom-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	-moz-border-radius-bottomleft: 0px;
+	-webkit-border-bottom-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+
+#stacks_in_186_page3 #content {
+	font-size: 11px;
+	line-height: 16px;
+}
+#stacks_in_188_page3 {
+	margin: 2px 2px 2px 2px;
+	padding: 5px 5px 5px 5px;
+}
+
+#stacks_in_186_page3 {
+	margin: 2px 2px 2px 2px;
+	padding: 5px 5px 5px 5px;
+}
